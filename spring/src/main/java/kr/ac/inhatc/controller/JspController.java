@@ -29,7 +29,7 @@ public class JspController {
 	}
 	//파라미터로 id를 입력 받고
 	//이 id를 화면에서 출력?
-	@RequestMapping("board")
+	@RequestMapping("testdb")
 	public String board(Model model, 
 			@RequestParam(name = "test",required = false,defaultValue = "연습페이지")String id) {
 		model.addAttribute("id",id);
